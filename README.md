@@ -7,8 +7,28 @@ However, to infer a reliable importance value of each data item, gradients need 
 that often cannot be met for the early-stage gradients from severely under-trained weights. 
 This work primarily focus on reducing the *pre-training* or warm-up stage for gradient-based subset selection algorithms. 
 
-For details about the method, please check our [paper](https://openreview.net/forum?id=1pMC4ScIXn).
+For details about the method, please check our [paper](https://proceedings.mlr.press/v202/ro23a.html).
 The code adopted and implemented on top of two codebases: [Deepcore](https://github.com/PatrickZH/DeepCore) and [Random Pruning (ICLR'22)](https://github.com/VITA-Group/Random_Pruning). 
+
+### Citation
+Please cite the following paper if you use LiPT. 
+```
+@InProceedings{pmlr-v202-ro23a,
+  title = 	 {Lowering the Pre-training Tax for Gradient-based Subset Training: A Lightweight Distributed Pre-Training Toolkit},
+  author =       {Ro, Yeonju and Wang, Zhangyang and Chidambaram, Vijay and Akella, Aditya},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {29130--29142},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/ro23a/ro23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/ro23a.html},
+}
+
+```
 
 ### Datasets
 We included implementation of CIFAR10, CIFAR100, and ImageNet.
